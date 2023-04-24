@@ -1,0 +1,80 @@
+body {
+  background-color: #f1f1f1;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header and navigation menu */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav li {
+  margin-right: 20px;
+}
+nav li:last-child {
+  margin-right: 0;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Style the main sections */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+
+/* Style the contact section */
+#contact ul {
+  display: flex;
+}
+#contact li {
+  margin-right: 10px;
+}
+#contact li:last-child {
+  margin-right: 0;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+
+/* Style links */
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
