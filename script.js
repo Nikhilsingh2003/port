@@ -20,3 +20,4 @@ mobileMenuBtn.addEventListener('click', () => {
 const currentYear = new Date().getFullYear();
 const footerYear = document.querySelector('footer p');
 footerYear.innerHTML += ` ${currentYear}`;
+// hello mam i had edited my  file and i will create pull request from it 
